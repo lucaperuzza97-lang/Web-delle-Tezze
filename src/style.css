@@ -294,3 +294,30 @@ code {
     border-right-color: var(--border);
   }
 }
+
+.topbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  background: #222;
+  z-index: 100;
+}
+.topbar a { color: #fff; text-decoration: none; }
+.topbar nav { display: flex; gap: 1rem; flex-wrap: wrap; }
+#contenuto { padding: 1rem; max-width: 900px; margin: 0 auto; }
+
+.login-pagina { text-align: center; padding: 2rem 1rem; }
+.login-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 320px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}

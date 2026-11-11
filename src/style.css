@@ -321,3 +321,22 @@ code {
   border: 1px solid #ccc;
   border-radius: 8px;
 }
+
+
+.coppa .card { background:#fff; border-radius:12px; padding:16px; margin:16px 0; box-shadow:0 1px 4px rgba(0,0,0,.12); color:#222; }
+.tabella-scroll { overflow-x:auto; }
+.tabella-punti { width:100%; border-collapse:collapse; margin-bottom:12px; }
+.tabella-punti th, .tabella-punti td { text-align:left; padding:6px 10px; border-bottom:1px solid #ddd; }
+.btn-primary { background:#c8102e; color:#fff; border:0; border-radius:8px; padding:12px 20px; font-size:1rem; cursor:pointer; }
+.btn-primary:disabled { opacity:.6; }
+.modal { position:fixed; inset:0; background:rgba(0,0,0,.55); display:flex; align-items:center; justify-content:center; z-index:1000; padding:12px; }
+.modal.hidden { display:none; }
+.modal-content { background:#fff; color:#222; border-radius:12px; padding:20px; width:100%; max-width:480px; max-height:90vh; overflow-y:auto; }
+.modal-content label { display:block; margin:10px 0; font-weight:600; }
+.modal-content input[type=text], .modal-content input[type=date], .modal-content select, .modal-content input[type=file] { display:block; width:100%; margin-top:4px; padding:8px; box-sizing:border-box; }
+.modal-content .check { font-weight:400; margin:6px 0; }
+.modal-actions { display:flex; justify-content:flex-end; gap:10px; margin-top:16px; }
+.anteprima-punti { font-weight:700; }
+.errore { color:#c8102e; }
+.foto-rov { max-width:100%; border-radius:8px; margin-bottom:10px; }
+.dettagli { list-style:none; padding:0; }
